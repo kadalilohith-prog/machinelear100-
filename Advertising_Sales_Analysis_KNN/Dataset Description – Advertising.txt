@@ -1,0 +1,155 @@
+Dataset Description – Advertising & Sales Analysis
+
+Business Context
+
+A company runs advertising campaigns across multiple channels and markets to 
+increase product sales. The goal is to understand how advertising investments 
+and campaign-related factors influence sales performance and to predict 
+expected sales for future advertising budgets.
+
+Each record in the dataset represents a single advertising campaign executed 
+in a specific market during a defined time period.
+
+Column Descriptions
+1. TV
+Description:
+Amount of money spent on television advertising for the product during the 
+campaign period.
+
+Data Type: Numeric (Continuous)
+Business Purpose:
+Represents mass media advertising with high reach and strong brand visibility.
+
+2. Radio
+
+Description:
+Amount of money spent on radio advertising during the campaign period.
+
+Data Type: Numeric (Continuous)
+Business Purpose:
+Captures local and regional advertising impact with relatively lower cost.
+
+3. Newspaper
+
+Description:
+Amount of money spent on newspaper advertising during the campaign period.
+
+Data Type: Numeric (Continuous)
+Business Purpose:
+Represents traditional print advertising, often effective for local and older audiences.
+
+4. Region
+Description:
+Geographical region where the advertising campaign was executed.
+
+Possible Values: North, South, East, West
+Data Type: Categorical
+Business Purpose:
+Accounts for regional differences in customer behavior and purchasing power.
+
+5. Market_Type
+Description:
+Classification of the market based on population density and urbanization.
+
+Possible Values: Urban, Semi-Urban, Rural
+Data Type: Categorical
+Business Purpose:
+Helps analyze advertising effectiveness across different types of markets.
+
+6. Season
+
+Description:
+Time period during which the advertising campaign was conducted.
+
+Possible Values: Festival, Normal
+Data Type: Categorical
+Business Purpose:
+Captures seasonal demand variations and festive buying behavior.
+
+7. Customer_Segment
+
+Description:
+Target customer group for the advertising campaign.
+
+Possible Values: Mass, Premium
+Data Type: Categorical
+Business Purpose:
+Differentiates between price-sensitive customers and high-value customers.
+
+8. Campaign_Type
+
+Description:
+Primary objective of the advertising campaign.
+
+Possible Values: Discount, Branding
+Data Type: Categorical
+Business Purpose:
+Indicates whether the campaign focuses on immediate sales or long-term brand building.
+
+9. Discount_Percent
+
+Description:
+Percentage discount offered to customers during the campaign.
+
+Data Type: Numeric (Discrete)
+Business Purpose:
+Acts as a direct driver of short-term sales growth.
+
+10. Ad_Frequency
+
+Description:
+Number of times the advertisement was shown to the target audience during the 
+campaign period.
+
+Data Type: Numeric (Discrete)
+Business Purpose:
+Measures advertisement exposure intensity and helps identify overexposure risks.
+
+11. Ad_Keyword
+
+Description:
+Primary message or theme emphasized in the advertisement.
+
+Possible Values: Discount, Premium, Savings, Luxury, Combo, Launch
+Data Type: Categorical (Single-Word Text)
+Business Purpose:
+Represents the communication strategy used to influence customer decisions.
+
+12. Feedback_Tag
+
+Description:
+Overall customer response to the advertising campaign.
+
+Possible Values: Positive, Satisfied, Neutral, Negative, Happy, Expensive
+Data Type: Categorical (Single-Word Text)
+Business Purpose:
+Acts as a proxy for customer sentiment and perceived value.
+
+13. Sales (Target Variable)
+
+Description:
+Total sales generated as a result of the advertising campaign.
+
+Data Type: Numeric (Continuous)
+Business Purpose:
+Primary outcome variable used to measure campaign effectiveness and build predictive models.
+
+Problem Statement
+
+Analyze the relationship between advertising spend, campaign characteristics, 
+and market conditions to understand their impact on sales and to predict future 
+sales for a given advertising budget.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
